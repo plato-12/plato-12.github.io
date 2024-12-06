@@ -17,4 +17,4 @@ Key contributions of the paper:
 - Insights into how economic and geopolitical crises amplify market connectedness.  
 - Establishing soybean as a dominant commodity in international markets.  
 
-The presentation emphasized the implications of these findings for commodity trading and risk management. For more details, refer to the [published paper](https://link.springer.com/article/10.1007/s10690-024-09458-7). # Replace with actual link
+The presentation emphasized the implications of these findings for commodity trading and risk management. For more details, refer to the [published paper](https://link.springer.com/article/10.1007/s10690-024-09458-7). 

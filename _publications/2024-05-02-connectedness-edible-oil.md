@@ -20,4 +20,4 @@ Key findings include:
 
 The analysis is based on daily closing prices of near-month contracts of six edible oil commodities, spanning **January 2013 to April 2023**.  
 
-For further details, refer to the [full paper](https://link.springer.com/article/10.1007/s10690-024-09458-7). # Replace with actual link
+For further details, refer to the [full paper](https://link.springer.com/article/10.1007/s10690-024-09458-7). 
