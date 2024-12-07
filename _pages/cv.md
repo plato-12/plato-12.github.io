@@ -11,13 +11,7 @@ redirect_from:
 
 ## Education
 - **B.Tech in Materials Science and Engineering**, IIT Kanpur   
-  CGPA: 7.6 / 10  
-
-- **CBSE (Class XII)**, Bethel Academy, Prayagraj  
-  Percentage: 93.0%  
-
-- **CISCE (Class X)**, Boys' High School and College, Prayagraj  
-  Percentage: 93.5%  
+**Minor:** Industrial and Management Engineering 
 
 ---
 
