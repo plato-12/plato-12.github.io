@@ -28,9 +28,10 @@ redirect_from:
   - Scheduled automated reports and alerts with Splunk to monitor trade logs.  
   - Automated client communications via Jakarta Mail API and Excel/CSV handling with Apache POI.  
 
----
-Publications
-======
+--- 
+
+## Publications
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
