@@ -39,9 +39,12 @@ redirect_from:
 ---
 
 ## Research Experiences
-- **Derivatives Pricing using Monte-Carlo methods**, IIT Kanpur (Aug 2024–Ongoing)  
-  - Implemented European option pricing using Binomial and Black-Scholes methods in R.  
-  - Developing Asian option pricing using Cox-Ross-Rubinstein and extending exotic option formulas.  
+- **Pricing Asian Option by Binomial Tree and Branching Process**, IIT Kanpur (Aug 2024–Ongoing)  
+  - Derived formulas for Arithmetic and Geometric Average Asian Options using the Cox-Ross-Rubinstein Method for the n-th time interval.
+  - Computed risk-neutral probabilities for each time step to price Asian Options based on Arithmetic and Geometric means.
+  - Established upper and lower bounds for Asian Option prices in discrete time and extended these results to continuous time.
+  - Investigating optimal paths for stock price averages using branching processes to improve pricing accuracy.
+  - Developing transition probability functions for risk-neutral probabilities, modeling them as a Markov Chain to find the stationary distribution.
 
 - **National Culture, Project Finance, and US Economic Uncertainty**, IIT Kanpur (Jan 2024–Ongoing)  
   - Conducted logistic regression modeling to analyze the impact of EPU on finance decisions in 23 countries.  
