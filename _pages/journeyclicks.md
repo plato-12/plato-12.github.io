@@ -34,7 +34,7 @@ Here are some glimpses from my travels across India.
 
 ## Chandigarh
 ![Chandigarh - Sukana Lake](/images/chnd-1.jpg "Chandigarh Photo")
-<div style="text-align: center; font-size: small;">Sukana Lake</div>
+<div style="text-align: center; font-size: small;">Sukhna Lake</div>
 
 ---
 
