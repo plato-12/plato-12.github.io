@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! I’m Priyanshu Tiwari, a senior undergraduate at IIT Kanpur, majoring in Materials Science and Engineering. My academic journey has led me to explore exciting intersections of quantitative finance, machine learning for neuroscience, and economics—with a special interest in auction theory and game theory. Currently, I’m diving into efficiently pricing Asian options and applying computational methods to tackle real-world problems.
+Hi there! I’m Priyanshu Tiwari, a senior undergraduate at IIT Kanpur. My academic journey has led me to explore exciting intersections of quantitative finance, machine learning for neuroscience, and economics—with a special interest in auction theory and game theory. Currently, I’m diving into efficiently pricing Asian options and applying computational methods to tackle real-world problems.
 
 Previously, I had the privilege of interning at BNY Mellon, where I worked as a Software Developer in their Asset Servicing Engineering team, crafting scalable solutions for data-driven decision-making.
 
