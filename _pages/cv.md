@@ -42,7 +42,7 @@ redirect_from:
   - Investigating optimal paths for stock price averages using branching processes to improve pricing accuracy.
   - Developing transition probability functions for risk-neutral probabilities, modeling them as a Markov Chain to find the stationary distribution.
 
-- **National Culture, Project Finance, and US Economic Uncertainty**, IIT Kanpur (Jan 2024–Ongoing)  
+- **Impact of Economic Policy Uncertainty on Financing Infrastructure**, IIT Kanpur (Jan 2024–Ongoing)  
   - Conducted logistic regression modeling to analyze the impact of EPU on finance decisions in 23 countries.  
   - Managed large datasets from Dealscan, Compustat, and country-level sources.  
 

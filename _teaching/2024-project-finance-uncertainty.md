@@ -1,5 +1,5 @@
 ---
-title: "National Culture, Project Finance and US Economic Uncertainty Policy"
+title: "Impact of Economic Policy Uncertainty on Financing Infrastructure"
 collection: teaching
 type: "Corporate Finance"
 permalink: /research/2024-project-finance-uncertainty
