@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2025-03-21-mea-conference
 excerpt: 'Presented at the MEA’s 89th Annual Meetings 2025, this study investigates how Economic Policy Uncertainty (EPU) impacts the preference for Project Finance vs. General Corporate Finance in infrastructure funding.'
-date: 2025-03-21
+date: 2024-03-21
 venue: 'MEA’s 89th Annual Meetings, Kansas City, Missouri'
 citation: 'Dr. Harshal Rajan Mulay, Priyanshu Tiwari, Dr. Rama Seth. (2025). &quot;Impact of Economic Policy Uncertainty on Financing Infrastructure.&quot; Presented at MEA’s 89th Annual Meetings 2025.'
 ---
