@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## Education
-- **B.Tech in Materials Science and Engineering**, IIT Kanpur   
+- **B.Tech in Materials Science and Engineering, IIT Kanpur**   
 **Minor:** 
     - **Machine Learning and Applications**
     - **Industrial and Management Engineering** 
