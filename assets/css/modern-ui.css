@@ -1,0 +1,372 @@
+/* Modern UI improvements */
+
+/* Base elements styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Brand colors - personalize these */
+  :root {
+    --primary-color: #2a7ae2;
+    --primary-color-light: #6ab0ff;
+    --primary-color-dark: #1756a9;
+    --accent-color: #ff6b6b;
+    --success-color: #5cb85c;
+    --info-color: #5bc0de;
+    --warning-color: #f0ad4e;
+    --danger-color: #d9534f;
+  }
+  
+  /* Card styling for content blocks */
+  .archive__item, 
+  .page__content,
+  .page__inner-wrap,
+  .author__urls-wrapper {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Navigation improvements */
+  .masthead__menu {
+    font-weight: 600;
+  }
+  
+  .masthead__menu-item {
+    transition: transform 0.3s ease;
+  }
+  
+  .masthead__menu-item:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Page headers and titles */
+  .page__title, 
+  .archive__item-title {
+    position: relative;
+    margin-bottom: 1.5em;
+  }
+  
+  .page__title:after, 
+  .archive__item-title:after {
+    content: '';
+    position: absolute;
+    bottom: -0.5em;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+  }
+  
+  .page__title:hover:after, 
+  .archive__item-title:hover:after {
+    width: 100px;
+  }
+  
+  /* Profile improvements */
+  .author__avatar {
+    margin-bottom: 1.5em;
+  }
+  
+  .author__content {
+    margin-bottom: 1.5em;
+  }
+  
+  .author__name {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  
+  .author__bio {
+    font-size: 1em;
+    font-style: italic;
+  }
+  
+  .author__urls {
+    margin-top: 1em;
+  }
+  
+  .author__urls li {
+    margin-bottom: 0.5em;
+    transition: transform 0.3s ease;
+  }
+  
+  .author__urls li:hover {
+    transform: translateX(5px);
+  }
+  
+  /* Button styling */
+  .btn {
+    padding: 0.5em 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-width: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Button variants */
+  .btn--primary {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .btn--primary:hover {
+    background-color: var(--primary-color-dark);
+  }
+  
+  .btn--success {
+    background-color: var(--success-color);
+    color: white;
+  }
+  
+  .btn--info {
+    background-color: var(--info-color);
+    color: white;
+  }
+  
+  .btn--warning {
+    background-color: var(--warning-color);
+    color: white;
+  }
+  
+  .btn--danger {
+    background-color: var(--danger-color);
+    color: white;
+  }
+  
+  /* Tables styling */
+  table {
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+    margin: 2em 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  thead {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  th {
+    padding: 1em;
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  td {
+    padding: 0.75em 1em;
+  }
+  
+  tbody tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  tbody tr:hover {
+    background-color: rgba(0,0,0,0.05);
+  }
+  
+  /* Publications and talks styling */
+  .publication, .talk {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .publication:last-child, .talk:last-child {
+    border-bottom: none;
+  }
+  
+  .publication__title, .talk__title {
+    font-size: 1.25em;
+    font-weight: 600;
+  }
+  
+  .publication__venue, .talk__venue {
+    font-style: italic;
+    margin-bottom: 0.5em;
+  }
+  
+  .publication__date, .talk__date {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .publication__abstract, .talk__abstract {
+    margin-top: 1em;
+  }
+  
+  /* Portfolio items styling */
+  .portfolio__item {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 2em;
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio__item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .portfolio__image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .portfolio__content {
+    padding: 1.5em;
+  }
+  
+  .portfolio__title {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .portfolio__desc {
+    margin-bottom: 1em;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 767px) {
+    .page__title:after, 
+    .archive__item-title:after {
+      width: 30px;
+    }
+    
+    .btn {
+      padding: 0.4em 1.2em;
+      font-size: 0.9em;
+    }
+  }
+  
+  /* Other improvements */
+  blockquote {
+    border-left: 5px solid var(--primary-color);
+    padding-left: 1em;
+    font-style: italic;
+    margin: 1.5em 0 1.5em 1em;
+  }
+  
+  /* Code blocks */
+  pre, code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    border-radius: 4px;
+  }
+  
+  /* Footer styling */
+  .page__footer {
+    margin-top: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  
+  /* CV specific styling */
+  .cv-entry {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .cv-entry:last-child {
+    border-bottom: none;
+  }
+  
+  .cv-entry__title {
+    font-weight: 600;
+    margin-bottom: 0.25em;
+  }
+  
+  .cv-entry__position {
+    font-weight: 500;
+    margin-bottom: 0.25em;
+  }
+  
+  .cv-entry__date {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 0.5em;
+  }
+  
+  .cv-entry__description {
+    margin-top: 0.5em;
+  }
+  
+  .cv-skills {
+    margin-top: 2em;
+  }
+  
+  .cv-skills__title {
+    margin-bottom: 1em;
+  }
+  
+  .cv-skills__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+  }
+  
+  .cv-skill {
+    background-color: var(--primary-color-light);
+    color: white;
+    padding: 0.25em 0.75em;
+    border-radius: 20px;
+    font-size: 0.9em;
+  }
+  
+  /* Print styling for CV */
+  @media print {
+    body {
+      font-size: 12pt;
+      color: #000;
+      background-color: #fff;
+    }
+    
+    .page__footer, 
+    .masthead,
+    .sidebar,
+    .dark-mode-toggle {
+      display: none;
+    }
+    
+    .page__content {
+      margin: 0;
+      padding: 0;
+      box-shadow: none;
+    }
+    
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+    
+    .page__title:after, 
+    .archive__item-title:after {
+      display: none;
+    }
+  }
