@@ -39,3 +39,44 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Add this to your assets/css/main.scss file after the @import lines */
+
+/* Fix for profile picture on mobile */
+@media (max-width: 767px) {
+    .author__avatar {
+      display: block;
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      
+      img {
+        max-width: 100%;
+        border-radius: 50%;
+      }
+    }
+    
+    .author__content {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  
+  /* Fix for misplaced toggle button */
+  @media (max-width: 767px) {
+    .greedy-nav {
+      position: relative;
+    }
+    
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+    
+    .visible-links {
+      display: table;
+      margin: 0 auto;
+    }
+  }
