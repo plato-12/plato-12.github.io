@@ -7,8 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! I’m Priyanshu Tiwari, a senior undergraduate at IIT Kanpur. My academic journey has led me to explore exciting intersections of quantitative finance, machine learning for neuroscience, and economics—with a special interest in auction theory and game theory. 
+Hey there! I'm Priyanshu Tiwari, a senior undergraduate student at IIT Kanpur. My academic journey? It's been a wild ride exploring the crossroads of quantitative finance, machine learning, and economics—with a major soft spot for auction theory and game theory (iykyk).
 
-Previously, I had the privilege of interning at BNY Mellon, where I worked as a Software Developer in their Asset Servicing Engineering team.
+Just wrapped up an internship at BNY Mellon, where I got to flex as a Software Developer in their Asset Servicing Engineering team. Definitely caught some valuable industry insights there!
 
-Beyond academics, I’m a passionate photographer, drawn to the timeless elegance of monochrome imagery. You’ll often find me immersed in films by Martin Scorsese, Quentin Tarantino, or Christopher Nolan, or vibing to indie-jazz and alternative R&B tracks.
+When I'm not drowning in code or financial models, you'll catch me behind my camera shooting moody monochrome photography (aesthetic, right?). Total film nerd too—anything from Scorsese and Tarantino to Nolan has me in my feels. And my Spotify? Full of indie-jazz and alternative R&B that absolutely no one has heard of. 
+
+Let's connect and create something cool together!
